@@ -4,6 +4,7 @@ title:  "CentOS 7 minimal 安装设置"
 date:   2016-06-17 11:03:07 +0800
 categories: CentOS 安装
 ---
+
 我们首次安装好CentOS7 minimal后，可能无法连接到网络。这是因为Ethernet Interfaces默认为not enabled。
 
 下面将介绍初次设置网络连接的步骤。
