@@ -27,9 +27,6 @@ categories: CentOS PostgreSQL
     ```
     su - postgres
     psql
-    ```
-
-    ```
 
     # create database named 'book'
     CREATE DATABASE book;
