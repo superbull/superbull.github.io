@@ -32,11 +32,21 @@ categories: CentOS PostgreSQL
     CREATE DATABASE book;
 
     # create user named 'tom' with password 'password'
-    CREATE USER tom WITH PASSWORD 'password';
+    CREATE USER tom WITH ENCRYPTED PASSWORD 'password';
 
     # grant user tom all privileges on database book
     GRANT ALL PRIVILEGES ON DATABASE book TO tom;
 
     # quit
     \q
+    ```
+
+    change settings to allow using username password to connect
+    ```
+    vi /var/lib/pgsql/9.4/data/pg_hba.conf
+    ```
+
+    add below line
+    ```
+    host  book  tom   127.0.0.1/32   md5
     ```
