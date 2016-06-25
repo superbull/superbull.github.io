@@ -8,11 +8,13 @@ categories: CentOS PostgreSQL
 ## Install PostgreSQL
 
 1. Install PostgreSQL yum repository.
+
     ```
     yum install http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-redhat94-9.4-1.noarch.rpm
     ```
 
 2. Install and initialize PostgreSQL
+
     ```
     yum install postgresql94-server postgresql94-contrib
     service postgresql-9.4 initdb
@@ -27,7 +29,7 @@ categories: CentOS PostgreSQL
     psql
     ```
 
-    ```SQL
+    ```
     # create database named 'book'
     CREATE DATABASE book;
 
