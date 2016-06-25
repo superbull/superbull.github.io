@@ -30,6 +30,7 @@ categories: CentOS PostgreSQL
     ```
 
     ```
+
     # create database named 'book'
     CREATE DATABASE book;
 
@@ -41,6 +42,7 @@ categories: CentOS PostgreSQL
 
     # quit
     \q
+
     ```
 
     change settings to allow using username password to connect
